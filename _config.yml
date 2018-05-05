@@ -18,7 +18,7 @@ cache:
 # For example, you want to put your custom styles file
 # outside theme directory in root `source/_data`, set
 # `styles: source/_data/styles.styl`
-#custom_file_path:
+custom_file_path:
   # Default paths: layout/_custom/*
   #head: source/_data/head.swig
   #header: source/_data/header.swig
@@ -29,7 +29,7 @@ cache:
   # Default path: source/css/_mixins/custom.styl
   #mixins: source/_data/mixins.styl
   # Default path: source/css/_custom/custom.styl
-  #styles: source/_data/styles.styl
+  styles: source/_data/styles.css
 
 
 # ---------------------------------------------------------------
@@ -118,9 +118,11 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
+  posts: /posts/ || pagelines
+  about: /about/ || user
+  Asymptote: /asymptote/ || asterisk
+  categories: /categories/ || th-list
+  tags: /tags/ || tags
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
@@ -129,17 +131,17 @@ menu:
 # Enable/Disable menu icons / item badges.
 menu_settings:
   icons: true
-  badges: false
+  badges: true
 
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+# scheme: Muse
 #scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -220,8 +222,8 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
-  #display: always
+  # display: post
+  display: always
   #display: hide
   #display: remove
 
@@ -229,10 +231,10 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: false
