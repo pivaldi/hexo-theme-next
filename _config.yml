@@ -29,7 +29,7 @@ custom_file_path:
   # Default path: source/css/_mixins/custom.styl
   #mixins: source/_data/mixins.styl
   # Default path: source/css/_custom/custom.styl
-  styles: source/_data/styles.css
+  styles: source/_asset/styles.css
 
 
 # ---------------------------------------------------------------
@@ -156,12 +156,12 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
-#social:
-  #GitHub: https://github.com/yourname || github
-  #E-Mail: mailto:yourname@gmail.com || envelope
-  #Google: https://plus.google.com/yourname || google
-  #Twitter: https://twitter.com/yourname || twitter
-  #FB Page: https://www.facebook.com/yourname || facebook
+social:
+  GitHub: https://github.com/pivaldi || github
+  E-Mail: mailto:p17+fromsite@ivaldi.xyz || envelope
+  Linkedin: https://fr.linkedin.com/in/philippe-ivaldi-32432018 || linkedin
+  Twitter: https://twitter.com/piprime || twitter
+  FB Page: https://www.facebook.com/philippe.ivaldi.1 || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
   #YouTube: https://youtube.com/yourname || youtube
